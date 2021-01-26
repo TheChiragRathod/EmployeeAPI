@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 const route = require("./route")
 
                                     //give database name here...
-mongoose.connect("mongodb+srv://Chirag:Star@456@cluster0.thc18.mongodb.net/Employee?retryWrites=true&w=majority",{useNewUrlParser:true,useUnifiedTopology:true}).then(
+mongoose.connect("mongodb+srv://Chirag:mystar3333@cluster0.thc18.mongodb.net/Employee?retryWrites=true&w=majority",{useNewUrlParser:true,useUnifiedTopology:true}).then(
     ()=>
     {
         const app=express();
